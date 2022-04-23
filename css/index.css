@@ -15,6 +15,7 @@
     align-self: center;
     justify-self: center;
     grid-column: 2/4;
+    color: white;
 }
 
 .subtitle {
@@ -27,7 +28,7 @@
 }
 
 .text-shadow {
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.13), -1px -1px rgba(0, 0, 0, 0.13);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.096), -1px -1px rgba(0, 0, 0, 0.158);
 }
 
 .border-shadow {
