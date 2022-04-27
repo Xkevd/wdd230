@@ -1,6 +1,13 @@
 @media (min-width: 32.5em) {
     body {
         background-color: rgb(185, 204, 247);
-        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        font-size: 150%;
+    }
+    .header-div{
+        width:100%;
+    }
     }
 }
