@@ -1,0 +1,6 @@
+@media (min-width: 32.5em) {
+    body {
+        background-color: rgb(185, 204, 247);
+        margin: auto;
+    }
+}
