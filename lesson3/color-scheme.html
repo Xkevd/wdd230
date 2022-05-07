@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color scheme</title>
+    <style>
+        .bg-color {
+            background-color: #FEFEFE;
+        }
+        p {
+            color: black;
+        }
+        h1, h2{
+            color: #001126;
+        }
+        .inverted-colors h1{
+            background-color: #6492b5;
+            color: #fefefe;
+            margin: 0px;
+        }
+        .inverted-colors p{
+            background-color: #6492b5;
+            color: black;
+            margin: 0px;
+        }
+        nav ul li{
+            list-style: none;
+            background-color: #001126;
+            color: #ffc587;
+        }
+        nav ul li:hover{
+
+            color: #ff8400;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+        }
+
+    </style>
+</head>
+<header>
+    <p><strong>Navigation bar with hover effect:</strong></p>
+    <nav>
+        <ul>
+            <li>Page 1</li>
+            <li>Page 2</li>
+            <li>Page 3</li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="bg-color">
+        <h1>Headings color</h1>
+        <p>Paragraphs color</p>
+    </div>
+    <div class="inverted-colors">
+        <h1>Heading with background color</h1>
+        <p>A paragraph with background color</p>
+    </div>
+
+</body>
+</html>
