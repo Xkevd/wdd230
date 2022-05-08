@@ -1,7 +1,7 @@
 .bg-color {
     background-color: #FEFEFE;
 }
-p {
+body p {
     color: black;
 }
 h1, h2{
@@ -37,3 +37,6 @@ nav ul li:hover{
     text-decoration: none;
 }
 
+footer p{
+    color: rgb(187, 187, 187);
+}
