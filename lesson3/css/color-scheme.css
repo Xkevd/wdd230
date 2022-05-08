@@ -1,0 +1,39 @@
+.bg-color {
+    background-color: #FEFEFE;
+}
+p {
+    color: black;
+}
+h1, h2{
+    color: #001126;
+}
+.inverted-colors h1{
+    background-color: #9ac2e0;
+    color: #fefefe;
+    margin: 0px;
+}
+.inverted-colors p{
+    background-color: #9ac2e0;
+    color: black;
+    margin: 0px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    }
+nav{
+    width: 100%;
+    background-color: #001126;
+}
+nav ul li {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    color: #ff8400;
+    text-decoration: none;
+}
+
