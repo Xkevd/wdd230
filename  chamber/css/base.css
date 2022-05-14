@@ -1,0 +1,161 @@
+header{
+    background-color: #001126;
+    padding: 1rem;
+}
+
+
+/*Navigation bar styiling*/
+#nav-bar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#logo{
+    margin-top: -7px;
+    width: 10rem;
+}
+#logo.open{
+    display: none;
+}
+#facebook{
+    width: 1.2rem;
+    justify-self: end;
+}
+#facebook.open{
+    display: none;
+}
+nav.open{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*Menu List*/
+#menuList {
+    display: none;
+}
+#menuList.open{
+    display: block;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    color: #fefefe;
+}
+#menuList li{
+    padding: 1rem;
+}
+#menuList li a{
+    text-decoration: none;
+    color: #fefefe;
+    display: block;
+}
+#menuList li a:hover{
+    color: #ff8400;
+    display: block;
+}
+#menuList li:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+/*Menu Button*/
+#menuBtn{
+    background-color: rgba(0,0,0,0);
+    border: #fefefe solid 1px;
+    color: #fefefe;
+}
+#menuBtn span:nth-child(1){
+    display: block;
+}
+#menuBtn span:nth-child(2){
+    display: none;
+}
+#menuBtn.open span:nth-child(1){
+    display: none;
+}
+#menuBtn.open span:nth-child(2){
+    display: block;
+}
+
+
+
+#date{
+    text-align: center;
+    background-color: rgba(255,255,255, 0.3);
+    padding: 1rem;
+}
+
+
+/*Body*/
+#body-grid{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#name, #event, #weather, #news, #join{
+    height: 10rem;
+    background-color: grey;
+    color: black;
+    margin: 0;
+    padding: 1.5rem;
+}
+#spotlight p{
+    height: 10rem;
+    color: black;
+    margin: 0;
+    border: rgba(0, 0, 0, 0.5) solid 1px;
+    padding: 1rem;
+}
+#spotlight{
+    background-color: grey;
+    padding: 1rem;
+}
+#spotlight :nth-child(3){
+    display: none;
+}
+
+
+
+/*Footer*/
+footer{
+    background-color: #001126;
+}
+#first-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fefefe;
+}
+#map{
+    text-align: center;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    color: #e9ba87;
+}   
+#first-footer img{
+    width: 100%;
+}
+hr{
+    width: 90%;
+    border: rgba(255,255,255, 0.3) solid 1px;
+}
+
+#second-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fefefe;
+}
+#second-footer p{
+    margin: 0px;
+}
+#join{
+    display: none;
+}
+
+
+
