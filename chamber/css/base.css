@@ -89,6 +89,9 @@ nav.open{
 
 
 /*Body*/
+#banner{
+    background-color: #ff840086;
+}
 #body-grid{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
