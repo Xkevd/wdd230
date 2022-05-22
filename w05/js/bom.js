@@ -3,7 +3,7 @@ const button = document.querySelector("button");
 const list = document.querySelector(".list");
 
 button.addEventListener("click", ()=>{
-    
+  if(input.value != ""){  
     const newElement = document.createElement("li");
     const deleteBtn = document.createElement("button");
 
@@ -14,7 +14,7 @@ button.addEventListener("click", ()=>{
 
     list.appendChild(newElement);
     deleteBtn.addEventListener("click", ()=>{list.removeChild(newElement)});
-    input.focus();
+    input.focus();}
 });
 
 
