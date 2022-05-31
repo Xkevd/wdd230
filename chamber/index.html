@@ -17,7 +17,11 @@
     </div>
     <header>
         <div id="nav-bar">
-        <img id="logo" src="images/online-stores-removebg2.png" alt="logo">
+        <picture>
+            <source srcset="images/logo-300px.webp" media="(min-width:641px) and (max-width:1007px)">
+            <source srcset="images/logo-500px.webp" media="(min-width: 1008px)">
+            <img id="logo" src="images/logo-200px.webp" alt="logo">
+        </picture>
         <a href="https://www.facebook.com/"><img id="facebook" src="images/Facebook_Logo_(2019).png.webp" alt="Facebook Logo"></a>
         <nav>
             <button id="menuBtn"><span>&#9776;</span><span>X</span></button>
@@ -35,7 +39,11 @@
     <main>
         <div id="body-grid">
             <div class="cell-style" id="join-chamber">
-                <img id="name" src="images/to-buy-g9bfa6e725_1920.jpg" alt="keyboard">
+                <picture id="name">
+                    <source srcset="images/wdd230-org-400px.jpg" media="(min-width:641px) and (max-width:1007px)">
+                    <source srcset="images/wdd230-org-700px.jpg" media="(min-width: 1008px)">        
+                    <img src="images/wdd230-org-200px.jpg" alt="keyboard">
+                </picture>
                 <h1>Welcome</h1>
                 <button>Join the Chamber</button>
             </div>
@@ -50,7 +58,11 @@
                 <p>The chamber of commerce is celebrating its first year.</p>
             </div>
             <div class="cell-style" id="join">
-                    <img src="images/to-buy-g9bfa6e725_1920.jpg" alt="keyboard">
+                <picture id="name">
+                    <source srcset="images/keyboard-400px.jpg" media="(min-width:641px) and (max-width:1007px)">
+                    <source srcset="images/keyboard-700px.jpg" media="(min-width: 1008px)">        
+                    <img src="images/keyboard-200px.jpg" alt="keyboard">
+                </picture>
                     <button>Join Us!</button>
             </div>
             <div class="cell-style" id="spotlight">
@@ -62,8 +74,12 @@
     </main>
     <footer>
         <div id="first-footer">
-        <img src="images/online-stores-removebg2.png" alt="logo">
-        <p id="address">Av. 18 de Julio 1360, 11200 Montevideo, Uruguay</p>
+            <picture>
+                <source srcset="images/logo-300px.webp" media="(min-width:641px) and (max-width:1007px)">
+                <source srcset="images/logo-500px.webp" media="(min-width: 1008px)">
+                <img id="logo" src="images/logo-200px.webp" alt="logo">
+            </picture>
+            <p id="address">Av. 18 de Julio 1360, 11200 Montevideo, Uruguay</p>
         <p class="border" id="email">Email: info@chamberofcommerce.uy</p>
      
         <p class="border" id="phone">Phone: +598 555 555</p>

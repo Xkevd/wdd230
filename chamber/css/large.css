@@ -88,10 +88,13 @@
         grid-column: 2/3;
         grid-row: 1/3;
     }
-    #join-chamber img{
+    #join-chamber #name img{
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    #name{
+        height: 100%;
     }
     #spotlight{
         grid-column: 3/4;
@@ -103,9 +106,6 @@
         margin: 0;
         height: auto;
     }
-
-
-
 
 
     /*Footer*/
