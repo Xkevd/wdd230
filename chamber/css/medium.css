@@ -101,12 +101,13 @@
         grid-column: 2/3;
         grid-row: 5/6;
         padding: 2rem;
-        height: 10rem;
+        height: fit-content;
 }
     #event{
         grid-column: 1/2;
         grid-row: 5/6;
         padding: 2rem;
+        height: auto;
     }
 
 } 

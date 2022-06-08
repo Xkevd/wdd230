@@ -51,10 +51,12 @@
     #event{
         grid-column: 1/2;
         grid-row: 1/2;
+        height: auto;
     }
     #weather{
         grid-column: 1/2;
         grid-row: 2/3;
+        height: auto;
     }
     #join{
         display: block;

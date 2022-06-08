@@ -149,9 +149,25 @@ nav.open{
     text-align: center;
     text-shadow: 1px 1px 10px #ffffffb7;
 }
+#weather h1{
+    text-align: center;
+}
+#weather div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 #weather{
     height: fit-content;
-    background-color: #a5d7ee00;
+}
+#temp-icon{
+    height: 4rem;
+    margin-top: -1rem;
+}
+#weather p{
+    font-size: 1.5rem;
+    align-self: center;
+
 }
 #news h1{
     text-align: center;
