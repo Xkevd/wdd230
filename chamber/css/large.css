@@ -7,7 +7,7 @@
         align-items: center;
         justify-items: center;
     }
-    #logo{
+    #logo, #logo-foot{
         width: 20rem;
     }
     #facebook{

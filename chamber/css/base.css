@@ -10,7 +10,7 @@ header{
     align-items: flex-start;
     justify-content: space-between;
 }
-#logo{
+#logo, #logo-foot{
     margin-top: -7px;
     width: 10rem;
 }
@@ -110,7 +110,7 @@ nav.open{
     text-align: center;
 }
 
-#name, #name img{
+#name, #join-us, #join-us img, #name img{
     object-fit: cover;
     position: absolute;
     width: 100%;
