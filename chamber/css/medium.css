@@ -47,7 +47,7 @@
     #body-grid{
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: repeat(5 auto);
+        grid-template-rows: repeat(5, auto);
         grid-gap: 0.5rem;
     }
     #join-chamber{
@@ -93,7 +93,7 @@
         background-color: #ff8400;
         border-radius: 7px;
         padding: 0.5rem;
-        border: px ridge #ff84007a;
+        border: 1px ridge #ff84007a;
         box-shadow: 5px 5px rgba(0,0,0,0.5);
         color: black;
     }
