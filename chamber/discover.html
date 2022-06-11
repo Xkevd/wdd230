@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon-cart-bg.ico">
+    <script src="js/index.js" defer></script>
+    <script src="js/lazyload.js" defer></script>
+    <link rel="stylesheet" href="css/lazyload.css">
+</head>
+<body>
+    <!-- Banner only visible on Tuesdays or Mondays -->
+    <div id="banner">
+        <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
+    </div>
+    <header>
+        <div id="nav-bar">
+        <picture>
+            <source srcset="images/logo-300px.webp" media="(min-width:641px) and (max-width:1007px)">
+            <source srcset="images/logo-500px.webp" media="(min-width: 1008px)">
+            <img id="logo" src="images/logo-200px.webp" alt="logo">
+        </picture>
+        <a href="https://www.facebook.com/"><img id="facebook" src="images/Facebook_Logo_(2019).png.webp" alt="Facebook Logo"></a>
+        <nav>
+            <button id="menuBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="menuList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <p id="date">Date</p>
+    </header>
+    <main id="discover">
+        <div>
+        <picture>
+            <source srcset="images/discover/Montevideo-artigas-600px.jpg" media="(min-width: 1008px)">
+            <source srcset="images/discover/Montevideo-artigas-400px.jpg" media="(min-width:641px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/discover/Montevideo-artigas-200px.jpg" alt="Montevideo">
+        </picture>
+        <p>Our chamber of commerce is located in the center of Montevideo, the capital of Uruguay</p>
+        </div>
+        <div>
+        <picture>
+            <source srcset="images/discover/plaza-ind-600px.jpg" media="(min-width: 1008px)">
+            <source srcset="images/discover/plaza-ind-400px.jpg" media="(min-width:641px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/discover/plaza-ind-200px.jpg" alt="Montevideo">
+        </picture>
+        <p>Here are located most of the important buildings of the country</p>
+        </div>
+        <div>
+        <picture>
+            <source srcset="images/discover/graphic-500px.jpg" media="(min-width: 1008px)">
+            <source srcset="images/discover/graphic-300px.jpg" media="(min-width:641px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/discover/graphic-200px.jpg" alt="Graphic">
+        </picture>
+        <p>Almost half of the population of the country lives in Montevideo. The graph shows in blue the percentage of people who lives in this city</p>
+        </div>
+        <div>
+        <picture>
+            <source srcset="images/discover/montevideo-beach-600px.jpg" media="(min-width: 1008px)">
+            <source srcset="images/discover/montevideo-beach-400px.jpg" media="(min-width:641px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/discover/montevideo-beach-200px.jpg" alt="Coast">
+        </picture>
+        <p>Besides that, Montevideo is a really nice place, with beautiful sights</p>
+        </div>
+        <div>
+        <picture>
+            <source srcset="images/discover/montevideo-port-600px.jpg" media="(min-width: 1008px)">
+            <source srcset="images/discover/montevideo-port-400px.jpg" media="(min-width:641px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/discover/montevideo-port-200px.jpg" alt="Port">
+        </picture>
+        <p>Montevideo is surrounded by coasts, and the national port is also located there</p>
+        </div>
+    </main>
+    <footer>
+        <div id="first-footer">
+            <picture>
+                <source srcset="images/logo-300px.webp" media="(min-width:641px) and (max-width:1007px)">
+                <source srcset="images/logo-500px.webp" media="(min-width: 1008px)">
+                <img id="logo-foot" src="images/logo-200px.webp" alt="logo">
+            </picture>
+            <p id="address">Av. 18 de Julio 1360, 11200 Montevideo, Uruguay</p>
+        <p class="border" id="email">Email: info@chamberofcommerce.uy</p>
+     
+        <p class="border" id="phone">Phone: +598 555 555</p>
+        <a id="map" href="https://goo.gl/maps/H5wr7tyitR2oeWEh6">Location map</a>
+    
+        </div>
+        <hr>
+        <div id="second-footer">
+        <p class="border bottom" id="year">Year</p>
+        <p class="border bottom">Kevin del Hoyo</p>
+        <p class="border bottom">WDD 230</p>
+        <p class=" bottom" id="modification">last modified</p>
+        </div>
+    
+        <script src="js/index.js"></script>
+    </footer>
+</body>
+</html>

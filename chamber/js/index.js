@@ -33,3 +33,7 @@ document.getElementById("year").innerHTML = "&copy; " + currentYear;
 
 let modDate = document.lastModified;
 document.getElementById("modification").textContent = "Last modification: "+modDate;
+
+
+/* --- Discover --- */
+

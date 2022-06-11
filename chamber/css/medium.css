@@ -110,4 +110,11 @@
         height: auto;
     }
 
+    /* --- Discover --- */
+
+#discover div{
+    margin: 1rem 3rem;
+}
 } 
+
+

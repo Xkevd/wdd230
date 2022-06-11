@@ -246,5 +246,21 @@ hr{
     display: none;
 }
 
-
+/* --- Discover --- */
+#discover{
+    margin-bottom: 2rem;
+}
+#discover img{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+#discover p{
+    text-align: center;
+}
+#discover div{
+    padding: 1rem;
+    background-color: #00112669;
+    margin: 1rem 0.5rem;
+}
 

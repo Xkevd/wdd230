@@ -155,5 +155,17 @@
     .bottom{
         padding: 0 2rem;
     }
+    /* --- Discover --- */
+
+#discover div{
+    margin: 2rem 7rem;
+    padding: 2rem;
+    width: 500px;
+    align-self: center;
+}
 
 }
+
+
+
+
