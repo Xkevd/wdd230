@@ -263,4 +263,18 @@ hr{
     background-color: #00112669;
     margin: 1rem 0.5rem;
 }
+#visited{
+    margin-left: 1rem;
+}
+#visited p{
+    background-color: #00112669;
+    display: inline;
+    border: #00112694 solid 1px;
+}
+#discover h1{
+    align-self: center;
+    background-color: #001126dc;
+    padding: 0.5rem 4rem;
+    color: white;
+}
 
