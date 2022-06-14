@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+table{
+    border: grey 1px solid;
+    text-align: center;
+    background-color: rgb(156, 156, 156);
+    font-family: "Ubuntu", sans-serif;
+}
+thead{
+    background-color: rgb(35, 175, 240);
+    font-size: 4vw;
+}
+tbody th{
+    background-color: rgb(18, 68, 92);
+    color: white;
+}
+tbody{
+    background-color: rgb(195, 228, 233);
+    font-size: 3vw;
+}
+tfoot{
+    background-color: rgb(35, 175, 240);
+    font-size: 2vw;
+}
+th, td{
+    padding: 0.5rem;
+}
+tbody tr:nth-child(4) td:nth-child(3){
+    background-color: rgb(18, 68, 92);
+    color: white;
+} 
+
+@media (max-width:640px) {
+    thead{
+        font-size: 2rem;
+    }
+    tbody{
+        font-size: 1rem;
+    }
+    tfoot{
+        font-size: 0.7rem;
+    }
+}
