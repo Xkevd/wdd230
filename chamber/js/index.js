@@ -50,3 +50,7 @@ else{
 
 visits++;
 localStorage.setItem("visit-ls", visits);
+
+/* --- Join --- */
+
+const category = document.querySelector;

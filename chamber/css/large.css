@@ -158,14 +158,16 @@
     /* --- Discover --- */
 
 #discover div{
-    margin: 1rem 0rem;
+    margin: 1rem;
     padding: 2rem;
-    width: 500px;
+    width: 80%;
     align-self: center;
 }
 #discover img:hover{box-shadow: 0 0 50px #333;}
 
 }
+/* --- Join --- */
+
 
 
 

@@ -278,3 +278,38 @@ hr{
     color: white;
 }
 
+/* --- Join --- */
+form p{
+    display: inline;
+}
+#personal_info, #membership_info{
+    padding: 0.5rem 3rem 1rem 1rem;
+    border: #000000 1px solid;
+    margin: 1rem;
+    width: 200px;
+    background-color: #00112636;
+}
+#personal_info input{
+    margin-bottom: 1rem;
+}
+
+#businessname{
+    margin-bottom: 1rem;
+}
+
+.category_info{
+    display: none;
+    font-style: italic;
+    color:#001126;
+}
+input + p{
+    font-weight: bold;
+}
+#join-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, textarea{
+    background-color: #0011263d;
+}
