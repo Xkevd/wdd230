@@ -302,7 +302,11 @@ form p{
     font-style: italic;
     color:#001126;
 }
-input + p{
+label{
+    font-weight: bold;
+}
+input+p{
+    color: #001126;
     font-weight: bold;
 }
 #join-page{
@@ -312,4 +316,30 @@ input + p{
 }
 input, textarea{
     background-color: #0011263d;
+}
+#cat_description{
+    display: none;
+}
+
+/* --- Thank you --- */
+#thankyou{
+    margin: 1rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00112669;
+}
+#thankyou h1, #thankyou h2{
+    text-align: center;
+}
+#goBack{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #ff8400c9;
+    padding: 1rem 2rem;
+    color: #001126;
+    border-radius: 10px;
+
 }

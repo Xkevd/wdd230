@@ -157,18 +157,45 @@
     }
     /* --- Discover --- */
 
-#discover div{
-    margin: 1rem;
-    padding: 2rem;
-    width: 80%;
-    align-self: center;
-}
-#discover img:hover{box-shadow: 0 0 50px #333;}
+    #discover div{
+        margin: 1rem;
+        padding: 2rem;
+        width: 80%;
+        align-self: center;
+    }
+    #discover img:hover{box-shadow: 0 0 50px #333;}
+
+
+    /* --- Join --- */
+
+    #personal_info, #membership_info{
+        width: 70vw;
+    }
+    #membership_info{
+        position: relative;
+    }
+    p.category_info{
+        position: absolute;
+        left: 40%;
+        right: 20%;
+        top: 40%;
+        text-align: justify;
+    }
+    input, label, input+p{
+        grid-column: 1/2;
+    }
+    #cat_description{
+        display: block;
+        position: absolute;
+        left: 40%;
+        top: 30%;
+    }
+    #cat_description em{
+        color: #333;
+        font-size: 1rem;
+    }
 
 }
-/* --- Join --- */
-
-
 
 
 

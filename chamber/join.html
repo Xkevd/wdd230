@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script src="js/index.js"></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/join.js" defer></script>
 </head>
 <body>
     <header>
@@ -34,14 +35,14 @@
     </header>
     <main id="join-page">
         <h1>Join Us</h1>
-        <form action="get" method="thankyou.html">
+        <form action="thankyou.html" method="get">
             <div id="personal_info">
                 <h2>Personal Information</h2>
                 <label for="username">Name:<sup>*</sup> </label><br>
                 <input type="text" id="username" name="username" required><br>
                 <label for="userlastname">Last name:<sup>*</sup></label><br>
                 <input type="text" id="userlastname" name="userlastname" required><br>
-                <label for="business">Business Position: </label><br>
+                <label for="business">Business Position:<sup>*</sup> </label><br>
                 <input type="text" id="business" name="business" pattern="A-Za-z0-9 \-" minlength="7" required><br>
                 <label for="email">Email:<sup>*</sup> </label><br>
                 <input type="email" id="email" name="email" placeholder="youremail@mail.com" required><br>
@@ -52,17 +53,18 @@
                 <h2>Business Information</h2>
                 <label for="businessname">Business Name:<sup>*</sup> </label><br>
                 <input type="text" id="businessname" name="businessname" required><br>
+                <h2 id="cat_description">Category Description <em>(select one to read the description)</em></h2>
                 <label for="membership">Select your membership level: </label><br>
                 <input class="radio" type="radio" id="np" name="membership"><p>NP Membership (non profit)</p><br>
-                <p class="category_info">This category is free; although you won't receive any instant benefit, you will be in touch with us, and receive our weekly bulletin.</p><br>
+                <p class="category_info" id="npPara">This category is free; although you won't receive any instant benefit, you will be in touch with us, and receive our weekly bulletin.</p><br>
                 <input class="radio" type="radio" id="br" name="membership"><p>Bronze Membership</p><br>
-                <p class="category_info">This is where you want to start!
+                <p class="category_info" id="brPara">This is where you want to start!
                     With just $20 per month, you will be enjoying all of our EBooks for free. You will also have special discounts on selected stores associated with the chamber.</p><br>
                 <input class="radio" type="radio" id="si" name="membership"><p>Silver Membership</p><br>
-                <p class="category_info">If you want to grow with us, this is what you are looking for, for only $39 per month.
+                <p class="category_info" id="siPara">If you want to grow with us, this is what you are looking for, for only $39 per month.
                     Free merchandise, like  EBooks, software, and more; discount on selected stores, and free assessment on graphic design projects to help your business grow.</p><br>
                 <input class="radio" type="radio" id="go" name="membership"><p>Gold Membership</p><br>
-                <p class="category_info">Our gold members deserve this: Free merchandise, total free assessment on graphic design projects for your business, and up to %70 discount on all of our associated stores.
+                <p class="category_info" id="goPara">Our gold members deserve this: Free merchandise, total free assessment on graphic design projects for your business, and up to %70 discount on all of our associated stores.
                     $99 per month, or $1000 per year.</p><br><br>
                 <label for="businessdescription">Business Description: </label><br>
                 <textarea id="businessdescription" name="businessdescription" placeholder="Describe your business here"></textarea><br>
