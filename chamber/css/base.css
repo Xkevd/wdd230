@@ -380,3 +380,21 @@ input, textarea{
     align-items: center;
     justify-content: center;
 }
+.grid-display{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.list-display{
+    display: flex;
+    flex-direction: column;
+}
+.list-display #website-card{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.list-display #level-img{
+    grid-column: 1/2;
+}
+.list-display .website-logo,.list-display p{
+    display: none;
+}
