@@ -1,0 +1,76 @@
+{
+    "websites" : [
+    {
+        "name" : "Apple Uruguay",
+        "address" : "Minas 1083, 11200 Montevideo, Departamento de Montevideo",
+        "phone" : "+598 2418 4656",
+        "website" : "https://www.apple.com/",
+        "level" : "Gold",
+        "picture" : "images/directory/apple-logo.png"
+    },
+    {
+        "name" : "Samsung Uruguay",
+        "address" : "Av. 18 de Julio 1598, 11200 Montevideo, Departamento de Montevideo",
+        "phone" : "+598 2402 0060",
+        "website" : "https://www.samsung.com/uy/",
+        "level" : "Gold",
+        "picture" : "images/directory/Samsung-logo.png"
+    },
+    {
+        "name" : "Mi Uruguay",
+        "address" : "Av. Uruguay 1338, 11200 Montevideo, Departamento de Montevideo",
+        "phone" : "+598 98 797 329",
+        "website" : "https://www.miuruguay.com.uy/",
+        "level" : "Silver",
+        "picture" : "images/directory/Xiaomi-logo.png"
+    },
+    {
+        "name" : "Huawei",
+        "address" : "Av. Leandro N. Alem 815, C1054 CABA, Argentina",
+        "phone" : "+548 002228880",
+        "website" : "https://consumer.huawei.com/latin/",
+        "level" : "Silver",
+        "picture" : "images/directory/huawei.png"
+    },
+    {
+        "name" : "LG Uruguay",
+        "address" : "Juan D. Jackson 1202, 11200 Montevideo, Departamento de Montevideo",
+        "phone" : "+548 2403 8169",
+        "website" : "https://www.lg.com/cac",
+        "level" : "Bronze",
+        "picture" : "images/directory/lg-logo.png"
+    },
+    {
+        "name" : "Shein Uruguay",
+        "address" : "25 de Agosto 506, 11000 Montevideo, Departamento de Montevideo",
+        "phone" : "+598 2914 6515",
+        "website" : "https://www.shein.com/",
+        "level" : "Bronze",
+        "picture" : "images/directory/shein-logo.jpg"
+    },
+    {
+        "name" : "Forum",
+        "address" : "18 de Julio 967, Montevideo, Montevideo, Uruguay",
+        "phone" : "+598 2900 7624",
+        "website" : "https://www.forum.com.uy/",
+        "level" : "Bronze",
+        "picture" : "images/directory/forum-logo.png"
+    },
+    {
+        "name" : "Puma Uruguay",
+        "address" : "Ramón del Valle Inclán 2667, Montevideo, Montevideo, Uruguay",
+        "phone" : "+598 2404 0444",
+        "website" : "https://www.pumastore.com.uy/",
+        "level" : "Silver",
+        "picture" : "images/directory/Puma-logo.png"
+    },
+    {
+        "name" : "HP Uruguay",
+        "address" : "Constituyente 1467, 11200 Montevideo, Departamento de Montevideo",
+        "phone" : "+598 2400 7965",
+        "website" : "https://www.hp.com/uy-es/home.html",
+        "level" : "Silver",
+        "picture" : "images/directory/hp-logo.png"
+    }
+    ]
+}

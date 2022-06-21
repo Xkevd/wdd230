@@ -343,3 +343,40 @@ input, textarea{
     border-radius: 10px;
 
 }
+
+/* --- Directory --- */
+.website-logo{
+    height: 100px;
+    margin-bottom: 0.5rem;
+}
+#directory-body a{
+    display: block;
+    text-decoration: none;
+    color: #052c5c;
+}
+.gold, .bronze, .silver{
+    width: 20px;
+    margin: 0px 5px 0px 0px;
+}
+#member-container{
+    display: flex;
+    align-items: center;
+}
+#website-card{
+    background-color: #00112669;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    text-align: center;
+}
+#set-grid, #set-list{
+    width: 4rem;
+    height: 3rem;
+    margin: 1rem 0.5rem;
+}
+#grid-list-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
