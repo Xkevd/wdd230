@@ -349,20 +349,22 @@ input, textarea{
     height: 100px;
     margin-bottom: 0.5rem;
 }
-#directory-body a{
+
+/* GRID STYLE */
+.grid-display #directory-body a{
     display: block;
     text-decoration: none;
     color: #052c5c;
 }
-.gold, .bronze, .silver{
+.grid-display .member-container img{
     width: 20px;
     margin: 0px 5px 0px 0px;
 }
-#member-container{
+.grid-display .member-container{
     display: flex;
     align-items: center;
 }
-#website-card{
+.grid-display .website-card{
     background-color: #00112669;
     display: flex;
     flex-direction: column;
@@ -384,17 +386,31 @@ input, textarea{
     display: grid;
     grid-template-columns: 1fr;
 }
-.list-display{
-    display: flex;
-    flex-direction: column;
+/* LIST STYLE */
+.list-display a{
+    text-decoration: none;
+    color: #052c5c;
 }
-.list-display #website-card{
+.list-display .website-card{
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 50px 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: #00112669;
+    margin: 1rem;
+    align-items: center;
 }
-.list-display #level-img{
+.list-display img{
+    width: 20px;
     grid-column: 1/2;
+    grid-row: 1/2;
 }
-.list-display .website-logo,.list-display p{
-    display: none;
+.list-display h2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1rem;
+}
+.list-display a{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 0.5rem;
 }
