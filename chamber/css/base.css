@@ -163,18 +163,18 @@ nav.open{
 #weather div{
     position: relative;
 }
-#weather figcaption{
+#weather-fig{
     position: absolute;
     bottom: 0px;
     left: 21%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-style: italic;
 }
 #temp-icon{
     height: 4rem;
     margin-top: -1rem;
 }
-#weather p{
+#temperature-para{
     font-size: 1.5rem;
     align-self: center;
 

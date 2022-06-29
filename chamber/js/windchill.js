@@ -5,7 +5,7 @@ const windChillElement = document.getElementById("chill");
 //Working with the API
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Montevideo&appid=66ebc759ac525615852406cc5e9884de&units=metric';
 const weatherIcon = document.querySelector('#temp-icon');
-const captionDesc = document.querySelector('#weather figcaption');
+const captionDesc = document.querySelector('#weather-fig');
 
 async function apiFetch() {
   try {
