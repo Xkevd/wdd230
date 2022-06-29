@@ -160,6 +160,16 @@ nav.open{
 #weather{
     height: fit-content;
 }
+#weather div{
+    position: relative;
+}
+#weather figcaption{
+    position: absolute;
+    bottom: 0px;
+    left: 21%;
+    font-size: 0.9rem;
+    font-style: italic;
+}
 #temp-icon{
     height: 4rem;
     margin-top: -1rem;

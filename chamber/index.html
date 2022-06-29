@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+0<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,14 +58,13 @@
                 <h1>Weather</h1>
                 <div>
                     <picture>
-                        <source srcset="images/cloud-400px.png" media="(min-width:641px) and (max-width:1007px)">
-                        <source srcset="images/cloud-600px.png" media="(min-width: 1008px)">        
                         <img id="temp-icon" src="images/cloud-200px.png" alt="cloud">
                     </picture>
-                    <p><span id="temperature">9</span>°C</p>
+                    <figcaption></figcaption>
+                    <p><span id="temperature"></span>°C</p>
                 </div>
                 <hr>
-                <p>Wind speed: <span id="speed">8</span>km/h</p>
+                <p>Wind speed: <span id="speed"></span>km/h</p>
                 <p>Wind chill: <span id="chill"></span></p>
             </div>
 
@@ -112,7 +112,7 @@
         <p class=" bottom" id="modification">last modified</p>
         </div>
     
-        <script src="js/index.js"></script>
+        <script src="js/index.js" defer></script>
     </footer>
 </body>
 
