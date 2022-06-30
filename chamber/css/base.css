@@ -367,12 +367,16 @@ input, textarea{
     color: #052c5c;
 }
 .grid-display .member-container img{
-    width: 20px;
+    width: 30px;
     margin: 0px 5px 0px 0px;
 }
 .grid-display .member-container{
     display: flex;
     align-items: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: #00000083 1px solid;
+    margin-bottom: 10px;
 }
 .grid-display .website-card{
     background-color: #00112669;
