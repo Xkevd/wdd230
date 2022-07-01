@@ -14,18 +14,6 @@ function toggleMenu(){
 const buttonMenu = document.querySelector("#menuBtn")
 buttonMenu.onclick = toggleMenu;
 
-/*Body*/
-
-let banner = document.querySelector("#banner");
-
-if (now.getDay() == 1 || now.getDay() == 2){
-    banner.style.display = "block";
-}
-else{
-    banner.style.display = "none";
-}
-
-
 /*Footer*/
 const year = new Date();
 const currentYear = year.getFullYear();
