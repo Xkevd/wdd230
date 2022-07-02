@@ -45,16 +45,16 @@
                 <label for="business">Business Position:<sup>*</sup> </label><br>
                 <input type="text" id="business" name="business" pattern="A-Za-z0-9 \-" minlength="7" required><br>
                 <label for="email">Email:<sup>*</sup> </label><br>
-                <input type="email" id="email" name="email" placeholder="youremail@mail.com" required><br>
+                <input type="email" id="email-input" name="email" placeholder="youremail@mail.com" required><br>
                 <label for="phone">Phone number:<sup>*</sup> </label><br>
-                <input type="tel" id="phone" name="phone" required><br>
+                <input type="tel" id="phone-input" name="phone" required><br>
             </div>
             <div id="membership_info">
                 <h2>Business Information</h2>
                 <label for="businessname">Business Name:<sup>*</sup> </label><br>
                 <input type="text" id="businessname" name="businessname" required><br>
                 <h2 id="cat_description">Category Description <em>(select one to read the description)</em></h2>
-                <label for="membership">Select your membership level: </label><br>
+                <p>Select your membership level: </p><br>
                 <input class="radio" type="radio" id="np" name="membership"><p>NP Membership (non profit)</p><br>
                 <p class="category_info" id="npPara">This category is free; although you won't receive any instant benefit, you will be in touch with us, and receive our weekly bulletin.</p><br>
                 <input class="radio" type="radio" id="br" name="membership"><p>Bronze Membership</p><br>
@@ -69,9 +69,7 @@
                 <label for="businessdescription">Business Description: </label><br>
                 <textarea id="businessdescription" name="businessdescription" placeholder="Describe your business here"></textarea><br>
                 <input type="submit" id="submitBtn" value="Submit form">
-                <label for="dateTime">
-                    <input type="hidden" name="dateTime">
-                </label>
+                <input type="hidden" name="dateTime">
             </div>
             
         </form>
