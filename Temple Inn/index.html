@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/small.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="navigation-div">
+            <a href="index.html" id="logo-link">    
+                <div id="logo-container">
+                    <h1 id="logo-h1" class="logo-text">The Temple</h1>
+                    <h2 id="logo-h2" class="logo-text">Inn & Suites</h2>
+                    <picture>
+                        <source srcset="images/logo-300px.png" media="(min-width:641px) and (max-width:1007px)">
+                        <source srcset="images/logo-400px.png" media="(min-width: 1008px)">
+                        <img id="logo-img" src="images/logo-200px.png" alt="logo">
+                    </picture>
+                </div>
+            </a>
+            <nav id="navigation-bar">
+                <button id="menuButton"><span>&#9776; Menu</span><span>&#x2715; Close</span></button>
+                <div id="menuList">
+                    <a href="index.html">Home</a>
+                    <a href="temples.html">Temples</a>
+                    <a href="reservations.html">Reservations</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+            <div id="weather-div">
+                <img id="weather-now-icon" src="images/cloud.png" alt="weather-icon">
+                <p id="weather-now-text"><span id="weather-now">Cloudy</span> - <span id="temperature-now">°c</span></p>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <div id="index-temple-information">
+            <h1>Montevideo, Uruguay</h1>
+            <picture>
+                <source srcset="images/Montevideo-500px.jpg" media="(min-width:641px) and (max-width:1007px)">
+                <source srcset="images/Montevideo-600px.jpg" media="(min-width: 1008px)">
+                <img src="images/Montevideo-300px.jpg" alt="Montevideo Temple">
+            </picture>
+            <p><em>Address:</em> 
+                <br>Bolonia 1722, Carrasco 11500 Montevideo, Uruguay</p>
+            <p><em>Telephone:</em> +598 2604-7300</p>
+            <p><em>Services:</em> 
+                <br>No clothing rental available
+                <br>No cafeteria available
+                <br>Patron housing available
+                <br>Distribution center nearby</p>
+            <p id="additional-temple-info"><em>Announced:</em> November 1998
+                <br><em>Groundbreaking: </em>27 April 1999
+                <br><em>Dedicated: </em>18 March 2001
+                </p>
+        </div>
+       <div>
+
+       </div>
+    </main>
+</body>
+</html>
