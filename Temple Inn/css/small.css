@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Lato:wght@300&display=swap');
-
 h1, h2, h3, h4, h5, h6, button{
     font-family: "Gulzar", sans-serif;
 }
@@ -10,6 +9,9 @@ em{
     font-weight: bold;
     font-style: normal;
 }
+
+@media (max-width: 500px){
+
 /* Logo */
 #logo-link{
     text-decoration: none;
@@ -38,6 +40,9 @@ em{
 }
 
 /* Header */
+#weather-alert{
+    display: none;
+}
 #navigation-div{
     display: flex;
     min-width: 200px;
@@ -140,7 +145,7 @@ em{
     position: relative;
 }
 #index-temple-information p{
-    width: 250px;
+    /*width: 250px;*/
     margin: 0.5rem;
     text-align: center;
 }
@@ -235,4 +240,5 @@ footer, header, main{
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
+}
 }
