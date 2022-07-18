@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temples</title>
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="icon" href="images/favicon-16x16.ico">
+        <script src="js/temples.js"></script>
+    </head>
+<body>
+    <header>
+        <div id="weather-alert">
+            <button>&#x2715; </button>
+            <h1>Alert</h1>
+        </div>
+        <div id="navigation-div">
+            <a href="index.html" id="logo-link">    
+                <div id="logo-container">
+                    <h1 id="logo-h1" class="logo-text">The Temple</h1>
+                    <h2 id="logo-h2" class="logo-text">Inn & Suites</h2>
+                    <picture>
+                        <source srcset="images/logo-300px.png" media="(min-width:641px) and (max-width:1007px)">
+                        <source srcset="images/logo-400px.png" media="(min-width: 1008px)">
+                        <img id="logo-img" src="images/logo-200px.png" alt="logo">
+                    </picture>
+                </div>
+            </a>
+            <nav id="navigation-bar">
+                <button id="menuButton"><span>&#9776; Menu</span><span>&#x2715; Close</span></button>
+                <div id="menuList">
+                    <a href="index.html">Home</a>
+                    <a href="temples.html">Temples</a>
+                    <a href="reservations.html">Reservations</a>
+                    <a href="services.html">Services</a>
+                </div>
+            </nav>
+            <div id="weather-div">
+                <h1>Weather</h1>
+                <div class="weather-day-division">
+                    <p class="weather-text-style">Day</p>
+                    <img class="weather-icon-style" id="weather-now-icon" src="images/cloud.png" alt="weather-icon">
+                    <p class="weather-text-style" id="weather-now-text"><span id="weather-now">Cloudy</span> - <span id="temperature-now">°c</span> - Humidity: <span></span></p>
+                </div>
+                <div class="weather-day-division">
+                    <p class="weather-text-style">Day</p>
+                    <img class="weather-icon-style" id="weather-day-one-icon" src="images/cloud.png" alt="weather-icon">
+                    <p class="weather-text-style" id="weather-day-one-text"><span id="weather-now">Cloudy</span> - <span id="temperature-now">°c</span> - Humidity: <span></span></p>
+                </div>
+                <div class="weather-day-division">
+                    <p class="weather-text-style">Day</p>
+                    <img class="weather-icon-style" id="weather-day-two-icon" src="images/cloud.png" alt="weather-icon">
+                    <p class="weather-text-style" id="weather-day-two-text"><span id="weather-now">Cloudy</span> - <span id="temperature-now">°c</span> - Humidity: <span></span></p>
+                </div>
+            </div>            
+        </div>
+    </header>
+    <main id="temples-body">
+        <div id="temples-container">
+
+        </div>
+    </main>
+    <footer>
+        <div id="contact-info">
+            <h1>Contact us</h1>
+            <p>info@templeinn.com</p>
+            <p>+ 555 555 555</p>
+        </div>
+        <div id="socialmedia">
+            <a href="http://facebook.com"><img src="images/facebook.png" alt="facebook icon"></a>
+            <a href="http://instagram.com"><img src="images/instagram.png" alt="instagram logo"></a>
+        </div>
+        <div id="additional-info">
+            <a href="attributions.html">Attributions</a>
+            <p>Last modified</p>
+        </div>
+    </footer>
+</body>
+</html>

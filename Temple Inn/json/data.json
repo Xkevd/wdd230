@@ -1,0 +1,37 @@
+{
+    "temples" : [
+    {
+        "country" : "Montevideo, Uruguay",
+        "address" : "Bolonia 1722, Carrasco 11500 Montevideo, Uruguay",
+        "phone" : "+598 2604-7300",
+        "services" : "No clothing rental available;No cafeteria available;Patron housing available;Distribution center nearby",
+        "history" : "2 November 1998 - Announced;27 April 1999 - Groundbreaking;18 March 2001 - Dedicated",
+        "picture" : "images/montevideo_uruguay_temple_lds.jpeg"
+    },
+    {
+        "country" : "Buenos Aires, Argentina",
+        "address" : "Aut. Tte. Gral. Riccheri N° 4955 B1778DUA Ciudad Evita Buenos Aires, Argentina",
+        "phone" : "+54 11-4693-9700",
+        "services" : "Clothing rental available;No cafeteria available;Patron housing available;Distribution center nearby",
+        "history" : "2 April 1980 - Announced;20 April 1983 - Groundbreaking;17 January 1986 - Dedicated;9 September 2012 - Rededicated ",
+        "picture" : "images/buenos_aires_argentina_temple.jpg"
+    },
+    {
+        "country" : "São Paulo, Brazil",
+        "address" : "Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 São Paulo - SP, Brazil",
+        "phone" : "+55 11-3723-7600",
+        "services" : "Clothing rental available;No cafeteria available;Patron housing available;Distribution center nearby",
+        "history" : "1 March 1975 - Announced;20 March 1976 - Groundbreaking;30 October 1978 - Dedicated;22 February 2004 - Rededicated ",
+        "picture" : "images/sao_paulo_brazil_temple_lds.jpeg"
+    },
+    {
+        "country" : "Tegucigalpa, Honduras",
+        "address" : "Boulevard Roble Oeste, 3ra Calle Sur., Comayagüela, M.D.C., Francisco Morazán, Honduras",
+        "phone" : "+504 2264-1212",
+        "services" : "No clothing rental available;No cafeteria available;Patron housing available;No distribution center nearby",
+        "history" : "9 June 2006 - Announced;12 September 2009 - Groundbreaking;17 March 2013 - Dedicated",
+        "picture" : "images/honduras_temple_lds.jpeg"
+    }
+]
+}
+
