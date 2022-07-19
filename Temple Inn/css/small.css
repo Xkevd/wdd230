@@ -276,12 +276,11 @@ footer, header, main{
     align-items: center;
     position: absolute;
     right: 1rem;
-    top: -1rem;
 }
 .like-section button{
     border: none;
     background-color: transparent;
-    font-size: 3rem;
+    font-size: 1rem;
     color: #4D4730;
     cursor: pointer;
 }
