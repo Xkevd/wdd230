@@ -1,6 +1,7 @@
 const requestURL = 'json/data.json';
 const cards = document.querySelector('#temples-container');
 
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -13,11 +14,17 @@ fetch(requestURL)
 
 function displayTemples(temple) {
     let card = document.createElement('section');
-    //card.className += "temple-card";
     //Temple Card//
     let h2 = document.createElement('h2');
-    //h2.className += "temple-title";
     h2.textContent = `${temple.country}`;
+    //let likeText = document.createElement('p');
+    //likeText.textContent = "Like";
+    let likeButton = document.createElement('button');
+    likeButton.textContent = `\u2665`;
+    let likeSection = document.createElement('div');
+    likeSection.appendChild(likeButton);
+    //likeSection.appendChild(likeText)
+    likeSection.className += "like-section";
 
     let portrait = document.createElement('img');
     portrait.className += "portrait";
@@ -42,8 +49,10 @@ function displayTemples(temple) {
     let history_title = document.createElement("h2");
     history_title.textContent = "History";
     history_list = history.split(";");
+
     // Add elements //
     card.appendChild(h2);
+    card.appendChild(likeSection)
     card.appendChild(portrait);
     card.appendChild(address_title)
     card.appendChild(address);
